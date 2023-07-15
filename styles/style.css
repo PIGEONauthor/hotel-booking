@@ -1,0 +1,56 @@
+/* --------------HEADER-------------- */
+.header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3,1fr);
+  padding: 41px 120px 32px;
+  margin: auto;
+}
+
+.header__logo {
+  text-decoration: none;
+  justify-self: start;
+}
+
+.header_logo-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+}
+
+.header__links-list {
+  display: flex;
+  gap: 26px;
+  list-style-type: none;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__button {
+  height: 47px;
+  width: 136px;
+  justify-self: end;
+  background-color: #0E1734;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  border: none;
+}
+
+/* --------------MAIN_COVER-------------- */
+
+.cover {
+  
+}
