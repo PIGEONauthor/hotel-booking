@@ -245,3 +245,35 @@
   height: 384px;
   border-radius: 4px;
 }
+
+/* ------------------MAIN_INTERIORS------------------ */
+
+.interiors {
+  display: flex;
+  flex-direction: column;
+  gap: 37.65px;
+  text-align: center;
+}
+
+.interiors__slider {
+  display: grid;
+  grid-template-columns: auto 344px;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    'main-image side-image'
+    'main-image side-image'
+    'main-image side-image';
+  gap: 3px;
+}
+
+.slider-image {
+  width: 344px;
+  height: 193.211px;
+  grid-area: side-image;
+}
+
+.active {
+  width: 1090px;
+  height: 585.578px;
+  grid-area: main-image;
+}
