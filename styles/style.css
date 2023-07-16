@@ -52,5 +52,96 @@
 /* --------------MAIN_COVER-------------- */
 
 .cover {
-  
+  padding: 80px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 845px;
+}
+
+.cover__description {
+  align-self: center;
+}
+
+.cover__description-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+  letter-spacing: -0.48px;
+  margin-bottom: 24px;
+}
+
+.cover__description-text {
+  color: #848FAC;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  width: 485px;
+  margin-bottom: 59px;
+}
+
+.cover__description-button {
+  height: 51px;
+  width: 180px;
+  justify-self: end;
+  background-color: #0E1734;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  border: none;
+}
+
+.cover__images {
+  display: flex;
+  gap: 24px;
+}
+
+.cover__images-section {
+  position: relative;
+}
+
+.cover__images-section-image {
+  width: 180px;
+  height: 588px;
+  border-radius: 4px;
+}
+
+.down-image {
+  align-self: end;
+  margin-bottom: 16px;
+}
+
+.cover__images-section-blur {
+  width: 162px;
+  height: 225px;
+  position: absolute;
+  bottom: 81px;
+  z-index: -1;
+  border-radius: 4px;
+  opacity: 0.20000000298023224;
+  filter: blur(22px);
+  margin-left: 9px;
+}
+
+.left-blur {
+  background-image: url(../images/meritt-thomas-blur-left.jpg);
+}
+
+.middle-blur {
+  background-image: url(../images/meritt-thomas-blur-middle.jpg);
+  width: 148px;
+  opacity: 0.30000001192092896;
+  bottom: 0;
+  margin-left: 16px;
+}
+
+.right-blur {
+  background-image: url(../images/meritt-thomas-u-blur-right.jpg);
 }
